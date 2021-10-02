@@ -1,0 +1,38 @@
+{
+  "name": "vite-vue-ol-tailwindcss",
+  "version": "1.0.0",
+  "description": "Vite, Vue, TailwindCSS and OpenLayers",
+  "scripts": {
+    "dev": "vite --host --port 60111",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyprasetya/vite-vue-ol-tailwindcss.git"
+  },
+  "keywords": [
+    "vite",
+    "vue",
+    "tailwindcss",
+    "openlayers",
+    "webmap"
+  ],
+  "author": "andyprasetya@opense7en.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andyprasetya/vite-vue-ol-tailwindcss/issues"
+  },
+  "homepage": "https://github.com/andyprasetya/vite-vue-ol-tailwindcss#readme",
+  "dependencies": {
+    "ol": "^6.8.1",
+    "vue": "^3.2.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.2",
+    "autoprefixer": "^10.3.6",
+    "postcss": "^8.3.8",
+    "tailwindcss": "^2.2.16",
+    "vite": "^2.6.0"
+  }
+}
